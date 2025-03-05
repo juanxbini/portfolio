@@ -3,14 +3,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const repositories = [
   {
-    name: "Proyecto 1",
-    description: "Descripción del proyecto 1.",
-    url: "https://github.com/usuario/proyecto1",
+    name: "Redux Authentication",
+    description: `Este proyecto implementa autenticación de 
+                  usuario utilizando React.
+                  La estructura del código sigue un enfoque modular para 
+                  separar responsabilidades y mejorar la escalabilidad. 
+                  La aplicación se conecta a una API REST para manejar la 
+                  autenticación de usuarios.`,
+    url: "https://github.com/juanxbini/authentication-redux",
   },
   {
-    name: "Proyecto 2",
-    description: "Descripción del proyecto 2.",
-    url: "https://github.com/usuario/proyecto2",
+    name: "Redux Authentication con Redux Toolkit",
+    description: `Este proyecto implementa autenticación de usuario utilizando React, Redux Toolkit y Redux Thunk.`,
+    url: "https://github.com/juanxbini/redux-auth-toolkit",
   },
   // Agrega más repositorios aquí
 ];
